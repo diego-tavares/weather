@@ -1,1 +1,1 @@
-# weather
+# random-day-generator
