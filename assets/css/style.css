@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    background-color: #0f0f0f;
+    color: #fefefe;
+
+}
+
+.header__name {
+    font: 700;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.weather__box {
+    display: flex;
+    justify-content: center;
+
+}
+
+.weather {
+    width: 400px;
+    height: 400px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding-top: 60px;
+
+}
+
+input {
+    height: 30px;
+    width: 250px;
+    text-align: center;
+}
+
