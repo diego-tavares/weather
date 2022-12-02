@@ -11,12 +11,6 @@ body {
 
 }
 
-.header__name {
-    font: 700;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-}
 .weather__box {
     display: flex;
     justify-content: center;
@@ -32,6 +26,10 @@ body {
     align-items: top;
     padding-top: 60px;
 
+}
+.bx-search-alt-2{
+    color: blue;
+    font-size: 35px;
 }
 
 input {
