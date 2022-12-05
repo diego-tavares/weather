@@ -11,10 +11,20 @@ body {
 
 }
 
+
 .weather__box {
     display: flex;
     justify-content: center;
+    
 
+}
+
+.center__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
 }
 
 .weather {
@@ -22,19 +32,28 @@ body {
     height: 400px;
     background-color: #FFF;
     display: flex;
-    justify-content: center;
-    align-items: top;
     padding-top: 60px;
+    justify-content: center;
+    
 
 }
 .bx-search-alt-2{
-    color: blue;
-    font-size: 35px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 50px;
+    margin-left: 20px;
 }
 
 input {
-    height: 30px;
+    height: 50px;
     width: 250px;
     text-align: center;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.8);
+    font-size: 22px;
+    outline: none;
+    border-radius: 10px
 }
 
+input:focus {
+    border: 3px solid red;
+
+}
