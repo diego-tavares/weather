@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    --preto-padrao: #0f0f0f;
 }
 
 body {
     height: 100%;
-    background-color: #0f0f0f;
+    background-color: var(--preto-padrao);
     color: #fefefe;
 
 }
@@ -38,7 +39,7 @@ body {
 
 }
 .bx-search-alt-2{
-    color: rgba(0, 0, 0, 0.8);
+    color: var(--preto-padrao);
     font-size: 50px;
     margin-left: 20px;
 }
@@ -50,10 +51,11 @@ input {
     box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.8);
     font-size: 22px;
     outline: none;
-    border-radius: 10px
+    border-radius: 10px;
+    border: none;
 }
 
 input:focus {
-    border: 3px solid red;
-
+    transition: 0.2s;
+    border: 3px solid var(--preto-padrao);
 }
