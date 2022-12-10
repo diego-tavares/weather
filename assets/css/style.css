@@ -31,7 +31,7 @@ body {
 .weather {
     width: 400px;
     height: 400px;
-    background-color: #FFF;
+    background-color: blue;
     display: flex;
     padding-top: 60px;
     justify-content: center;
