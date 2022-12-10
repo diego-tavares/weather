@@ -65,3 +65,7 @@ input:focus {
     transition: 0.2s;
     border: 3px solid var(--preto-padrao);
 }
+
+.cidade {
+    display:flex;
+}
