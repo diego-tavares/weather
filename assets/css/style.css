@@ -68,6 +68,9 @@ input:focus {
 
 
 .cidade__pais {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 45%;
     font-size: 30px;
@@ -78,5 +81,5 @@ input:focus {
 }
 
 .pais {
-    
+
 }
