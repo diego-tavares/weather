@@ -87,3 +87,6 @@ input:focus {
     font-weight: bolder;
 }
 
+.temperatura {
+    font-size: 30px;
+}
