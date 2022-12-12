@@ -1,1 +1,6 @@
-const weather = document.getElementById('weather')
+const inputText = document.getElementById('inputText')
+const cidade = document.getElementById('cidade')
+const pais = document.getElementById('pais')
+const tempo = document.getElementById('tempo')
+const tipo = document.getElementById('tipo')
+const temperatura = document.getElementById('temperatura')
