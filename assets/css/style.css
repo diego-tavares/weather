@@ -77,3 +77,12 @@ input:focus {
     font-weight: bolder;
 }
 
+.infos {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 55%;
+    font-size: 30px;
+    font-weight: bolder;
+}
