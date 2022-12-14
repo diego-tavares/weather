@@ -47,7 +47,8 @@ body {
 }
 
 .bx-search-alt-2:hover{
-    cursor: pointer
+    cursor: pointer;
+    transform: scale(1.1)
 }
 
 
